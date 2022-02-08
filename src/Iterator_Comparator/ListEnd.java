@@ -15,7 +15,7 @@ public class ListEnd {
         Iterator<String> iterator = list.listIterator();
         while (iterator.hasNext()) {
             if (iterator.next().equals("end")) {
-                break;
+                break; //iterator.remove();
             }
             System.out.print(iterator.next());
         }
